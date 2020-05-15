@@ -1,0 +1,795 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f2791d3ecf41ed9e54a91eddcfa2ad3/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-android-sdk:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/50e4dc5b4ccddfbd21d41a1e4ddf62a9/facebook-android-sdk-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7c786452084d312c5e88d0b873a95290/jetified-facebook-login-5.8.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da47f09349c8fb9fba62201e780063/jetified-facebook-share-5.8.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:21:1-37:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/fb8f7031ef66b8147647717c2aecca12/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/874c23737bb823accb64b8c68ad31d78/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/81a362b35962fa2496d450cbee5c4ecc/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3bdf0852054554236110c566fc9bd1e2/firebase-core-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:17:1-44:12
+MERGED from [com.appsflyer:af-android-sdk:4.8.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0cd722ce311a52b55d3a43a415613c14/jetified-af-android-sdk-4.8.3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d61cc0fdad3f97c873750743c920ded7/firebase-analytics-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bddb76cfbc16985d70a12d33a38695ca/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8ad9b8c8ce6b36ed997aee2823f6426c/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/dd64b0e5e5a7f144b8735df05b5509e0/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d728d729680c9fdf00b5a0338120f05d/firebase-installations-interop-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/72c10e262845a1c2de4f6980a55c9ba9/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/edc036483ef40607e8355e7cf0a3668d/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/103107df96b740ba2a049c2d6e82f159/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bb7f6bd7a0a2da7328d8fd0afe87a97a/play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/58baa4d73e9e5a223780169a5005572b/play-services-measurement-base-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d888c399867a8f38619658b14b6b7815/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/03427883b80ab78f3e6a356eba4df863/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47746cad00cfcd8c16887c338d7609a3/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b6af4929e5c18857e99f1008808e49d4/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8d2f5fc1d1c30426657ccfbb83417c32/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/32d6d4909a16d2ee7ad0c6d18077c046/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2423a3e8c7d595310e6661cc5002b018/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/28826367f54dcf4e849b205d432c0160/facebook-places-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8531918465684dfb20809cc38d9dfedc/facebook-applinks-5.8.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e4b82be85be4e46c9e3ecdf528d83b5/facebook-messenger-5.11.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:21:1-61:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b18a22a7d488d5a4c630bd657737271b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a20d5a06e84dd0039c6abcd9b5c93652/transition-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8d38c20afe116acc8f623a554a3e696f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/55c8e6e745aacceb492535bf431d5720/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d45e841e71572de25c8d80ebec98d932/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/05209a9bf6c0004aab305c3d2c2ddb5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a66c090665c19e2493fdf5aa90a98622/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0277a12eb6350899229e62710291b7ca/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7fb53a1349254ee0a9efa4b97d2f28bf/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2b97e8589c8f9cc9adcb585b2c3183a0/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/6b6a5f0e2028213443bf564f1c585c31/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/fa938dd1ba07eb510b386f61bb706de8/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bf49d1e9988754dbe0dc022e3b661608/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/20ef0b00089f51cd53164f68e54bd5d2/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/baa3e78332db17aa9cd097e174ded426/firebase-encoders-json-16.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d619842a7eaf1130694ae1c01f978c20/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/f3d3c9ef953af10d388177573d1cb616/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a072b7027d050ba4a28e8ed0f5aedf24/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/31e1e0ea40abf50bc1f09972fcda6618/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a92904b990e3cb14e2f3d12a60bfcf2/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5080ea4c3a94602e590d65de9668e7d9/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eacaec61a98c327bdb4a7a1173d930da/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3576101df1addecb45ee4a121a0809b3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/6518c549eca7c8c139a4cbcfbf192b2e/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/ba1ca6d966f0903bfbc154284174b676/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/cf1beec41d3606c2f878b1c5dd26a539/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e0444443ffb82f923834973bbf621d3/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2416b0e023089ab2d02c9cadfe321f31/transport-api-2.2.0/AndroidManifest.xml:15:1-22:12
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+	package
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:1-81:12
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:5:1-63
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:5:18-60
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:6:1-76
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:6:18-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:7:1-77
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:7:18-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:8:1-75
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:8:18-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:9:1-72
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:9:18-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:10:1-71
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:10:18-68
+application
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:12:1-79:15
+MERGED from [com.google.android.material:material:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f2791d3ecf41ed9e54a91eddcfa2ad3/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f2791d3ecf41ed9e54a91eddcfa2ad3/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/50e4dc5b4ccddfbd21d41a1e4ddf62a9/facebook-android-sdk-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/50e4dc5b4ccddfbd21d41a1e4ddf62a9/facebook-android-sdk-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7c786452084d312c5e88d0b873a95290/jetified-facebook-login-5.8.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7c786452084d312c5e88d0b873a95290/jetified-facebook-login-5.8.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da47f09349c8fb9fba62201e780063/jetified-facebook-share-5.8.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da47f09349c8fb9fba62201e780063/jetified-facebook-share-5.8.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:28:5-35:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/81a362b35962fa2496d450cbee5c4ecc/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/81a362b35962fa2496d450cbee5c4ecc/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3bdf0852054554236110c566fc9bd1e2/firebase-core-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3bdf0852054554236110c566fc9bd1e2/firebase-core-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:22:5-42:19
+MERGED from [com.appsflyer:af-android-sdk:4.8.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0cd722ce311a52b55d3a43a415613c14/jetified-af-android-sdk-4.8.3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.appsflyer:af-android-sdk:4.8.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0cd722ce311a52b55d3a43a415613c14/jetified-af-android-sdk-4.8.3/AndroidManifest.xml:7:5-8:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:29:5-45:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d61cc0fdad3f97c873750743c920ded7/firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d61cc0fdad3f97c873750743c920ded7/firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bddb76cfbc16985d70a12d33a38695ca/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bddb76cfbc16985d70a12d33a38695ca/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:29:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8ad9b8c8ce6b36ed997aee2823f6426c/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8ad9b8c8ce6b36ed997aee2823f6426c/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/dd64b0e5e5a7f144b8735df05b5509e0/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/dd64b0e5e5a7f144b8735df05b5509e0/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/72c10e262845a1c2de4f6980a55c9ba9/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/72c10e262845a1c2de4f6980a55c9ba9/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/edc036483ef40607e8355e7cf0a3668d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/edc036483ef40607e8355e7cf0a3668d/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/103107df96b740ba2a049c2d6e82f159/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/103107df96b740ba2a049c2d6e82f159/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bb7f6bd7a0a2da7328d8fd0afe87a97a/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bb7f6bd7a0a2da7328d8fd0afe87a97a/play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/58baa4d73e9e5a223780169a5005572b/play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/58baa4d73e9e5a223780169a5005572b/play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/28826367f54dcf4e849b205d432c0160/facebook-places-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/28826367f54dcf4e849b205d432c0160/facebook-places-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8531918465684dfb20809cc38d9dfedc/facebook-applinks-5.8.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8531918465684dfb20809cc38d9dfedc/facebook-applinks-5.8.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e4b82be85be4e46c9e3ecdf528d83b5/facebook-messenger-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e4b82be85be4e46c9e3ecdf528d83b5/facebook-messenger-5.11.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:28:5-59:19
+MERGED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:28:5-59:19
+MERGED from [androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/f3d3c9ef953af10d388177573d1cb616/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/f3d3c9ef953af10d388177573d1cb616/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:19:5-31
+	android:label
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:17:5-37
+	android:hardwareAccelerated
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:15:5-40
+	android:largeHeap
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:18:5-29
+	android:icon
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:16:5-39
+	android:allowBackup
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:14:5-31
+	android:theme
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:20:5-55
+	android:usesCleartextTraffic
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:21:5-40
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:13:5-36
+activity#fu.nnyfro.ghunt.Activities.MenuActivity
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:23:5-26:16
+	android:screenOrientation
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:25:9-46
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:24:9-48
+activity#fu.nnyfro.ghunt.MActivity
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:28:5-31:16
+	android:screenOrientation
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:30:9-46
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:29:9-34
+activity#fu.nnyfro.ghunt.MainActivity
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:37:5-54:16
+	android:screenOrientation
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:39:9-45
+	android:noHistory
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:40:9-33
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:38:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:41:9-45:25
+action#android.intent.action.MAIN
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:42:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:44:23-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:app
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:46:9-53:25
+action#android.intent.action.VIEW
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:47:13-65
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:47:21-62
+category#android.intent.category.DEFAULT
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:49:13-72
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:49:23-69
+category#android.intent.category.BROWSABLE
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:50:13-74
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:50:23-71
+data
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:52:13-42
+	android:scheme
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:52:19-39
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:57:5-63:15
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:59:9-33
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:58:9-78
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:60:9-62:25
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:61:13-74
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:61:21-71
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:65:5-67:51
+	android:value
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:67:9-48
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:66:9-54
+uses-library#org.apache.http.legacy
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:69:5-71:36
+	android:required
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:71:9-33
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:70:9-46
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:73:5-75:50
+	android:resource
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:75:9-47
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:74:9-79
+meta-data#com.google.android.gms.version
+ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:76:5-78:65
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:78:9-62
+	android:name
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:77:9-54
+uses-sdk
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f2791d3ecf41ed9e54a91eddcfa2ad3/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f2791d3ecf41ed9e54a91eddcfa2ad3/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/50e4dc5b4ccddfbd21d41a1e4ddf62a9/facebook-android-sdk-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/50e4dc5b4ccddfbd21d41a1e4ddf62a9/facebook-android-sdk-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7c786452084d312c5e88d0b873a95290/jetified-facebook-login-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7c786452084d312c5e88d0b873a95290/jetified-facebook-login-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da47f09349c8fb9fba62201e780063/jetified-facebook-share-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da47f09349c8fb9fba62201e780063/jetified-facebook-share-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/fb8f7031ef66b8147647717c2aecca12/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/fb8f7031ef66b8147647717c2aecca12/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/874c23737bb823accb64b8c68ad31d78/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/874c23737bb823accb64b8c68ad31d78/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/81a362b35962fa2496d450cbee5c4ecc/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/81a362b35962fa2496d450cbee5c4ecc/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3bdf0852054554236110c566fc9bd1e2/firebase-core-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3bdf0852054554236110c566fc9bd1e2/firebase-core-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:20:5-44
+MERGED from [com.appsflyer:af-android-sdk:4.8.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0cd722ce311a52b55d3a43a415613c14/jetified-af-android-sdk-4.8.3/AndroidManifest.xml:5:5-43
+MERGED from [com.appsflyer:af-android-sdk:4.8.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0cd722ce311a52b55d3a43a415613c14/jetified-af-android-sdk-4.8.3/AndroidManifest.xml:5:5-43
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d61cc0fdad3f97c873750743c920ded7/firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d61cc0fdad3f97c873750743c920ded7/firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bddb76cfbc16985d70a12d33a38695ca/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bddb76cfbc16985d70a12d33a38695ca/play-services-tagmanager-v4-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8ad9b8c8ce6b36ed997aee2823f6426c/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8ad9b8c8ce6b36ed997aee2823f6426c/play-services-measurement-sdk-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/dd64b0e5e5a7f144b8735df05b5509e0/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/dd64b0e5e5a7f144b8735df05b5509e0/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d728d729680c9fdf00b5a0338120f05d/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d728d729680c9fdf00b5a0338120f05d/firebase-installations-interop-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/72c10e262845a1c2de4f6980a55c9ba9/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/72c10e262845a1c2de4f6980a55c9ba9/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/edc036483ef40607e8355e7cf0a3668d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/edc036483ef40607e8355e7cf0a3668d/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/103107df96b740ba2a049c2d6e82f159/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/103107df96b740ba2a049c2d6e82f159/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bb7f6bd7a0a2da7328d8fd0afe87a97a/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bb7f6bd7a0a2da7328d8fd0afe87a97a/play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/58baa4d73e9e5a223780169a5005572b/play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/58baa4d73e9e5a223780169a5005572b/play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5693abe167f1a731b22a1109a378a462/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d888c399867a8f38619658b14b6b7815/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d888c399867a8f38619658b14b6b7815/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/03427883b80ab78f3e6a356eba4df863/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/03427883b80ab78f3e6a356eba4df863/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47746cad00cfcd8c16887c338d7609a3/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47746cad00cfcd8c16887c338d7609a3/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b6af4929e5c18857e99f1008808e49d4/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b6af4929e5c18857e99f1008808e49d4/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8d2f5fc1d1c30426657ccfbb83417c32/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8d2f5fc1d1c30426657ccfbb83417c32/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/32d6d4909a16d2ee7ad0c6d18077c046/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/32d6d4909a16d2ee7ad0c6d18077c046/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2423a3e8c7d595310e6661cc5002b018/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2423a3e8c7d595310e6661cc5002b018/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/28826367f54dcf4e849b205d432c0160/facebook-places-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/28826367f54dcf4e849b205d432c0160/facebook-places-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8531918465684dfb20809cc38d9dfedc/facebook-applinks-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8531918465684dfb20809cc38d9dfedc/facebook-applinks-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e4b82be85be4e46c9e3ecdf528d83b5/facebook-messenger-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e4b82be85be4e46c9e3ecdf528d83b5/facebook-messenger-5.11.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b18a22a7d488d5a4c630bd657737271b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b18a22a7d488d5a4c630bd657737271b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a20d5a06e84dd0039c6abcd9b5c93652/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a20d5a06e84dd0039c6abcd9b5c93652/transition-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8d38c20afe116acc8f623a554a3e696f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8d38c20afe116acc8f623a554a3e696f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/55c8e6e745aacceb492535bf431d5720/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/55c8e6e745aacceb492535bf431d5720/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d45e841e71572de25c8d80ebec98d932/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d45e841e71572de25c8d80ebec98d932/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/05209a9bf6c0004aab305c3d2c2ddb5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/05209a9bf6c0004aab305c3d2c2ddb5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a66c090665c19e2493fdf5aa90a98622/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a66c090665c19e2493fdf5aa90a98622/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0277a12eb6350899229e62710291b7ca/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/0277a12eb6350899229e62710291b7ca/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7fb53a1349254ee0a9efa4b97d2f28bf/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/7fb53a1349254ee0a9efa4b97d2f28bf/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2b97e8589c8f9cc9adcb585b2c3183a0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2b97e8589c8f9cc9adcb585b2c3183a0/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/6b6a5f0e2028213443bf564f1c585c31/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/6b6a5f0e2028213443bf564f1c585c31/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/fa938dd1ba07eb510b386f61bb706de8/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/fa938dd1ba07eb510b386f61bb706de8/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bf49d1e9988754dbe0dc022e3b661608/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bf49d1e9988754dbe0dc022e3b661608/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/20ef0b00089f51cd53164f68e54bd5d2/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/20ef0b00089f51cd53164f68e54bd5d2/jetified-firebase-components-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/baa3e78332db17aa9cd097e174ded426/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/baa3e78332db17aa9cd097e174ded426/firebase-encoders-json-16.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d619842a7eaf1130694ae1c01f978c20/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d619842a7eaf1130694ae1c01f978c20/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/f3d3c9ef953af10d388177573d1cb616/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/f3d3c9ef953af10d388177573d1cb616/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a072b7027d050ba4a28e8ed0f5aedf24/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/a072b7027d050ba4a28e8ed0f5aedf24/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/31e1e0ea40abf50bc1f09972fcda6618/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/31e1e0ea40abf50bc1f09972fcda6618/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a92904b990e3cb14e2f3d12a60bfcf2/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a92904b990e3cb14e2f3d12a60bfcf2/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5080ea4c3a94602e590d65de9668e7d9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5080ea4c3a94602e590d65de9668e7d9/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eacaec61a98c327bdb4a7a1173d930da/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eacaec61a98c327bdb4a7a1173d930da/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3576101df1addecb45ee4a121a0809b3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3576101df1addecb45ee4a121a0809b3/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/6518c549eca7c8c139a4cbcfbf192b2e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/6518c549eca7c8c139a4cbcfbf192b2e/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/ba1ca6d966f0903bfbc154284174b676/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/ba1ca6d966f0903bfbc154284174b676/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/cf1beec41d3606c2f878b1c5dd26a539/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/cf1beec41d3606c2f878b1c5dd26a539/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e0444443ffb82f923834973bbf621d3/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5e0444443ffb82f923834973bbf621d3/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2416b0e023089ab2d02c9cadfe321f31/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/2416b0e023089ab2d02c9cadfe321f31/transport-api-2.2.0/AndroidManifest.xml:18:5-20:41
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		ADDED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+activity#com.facebook.FacebookActivity
+ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:29:9-32:66
+	android:configChanges
+		ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:31:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:30:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:34:19-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:12:9-16:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:37:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:36:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:39:17-119
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+meta-data#com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar
+ADDED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:33:17-117
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-analytics-impl:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c46f014b038772537ac428a0d6fe8aed/play-services-analytics-impl-17.0.0/AndroidManifest.xml:27:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/5b2deb3cec5926198a527d289f868bf2/play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:27:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:31:13-78
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:37:13-77
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:40:9-44:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:42:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:43:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:41:13-80
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/8580cebf3aa4b7e70d4a4fb9dca6361e/play-services-measurement-impl-17.2.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+meta-data#com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar
+ADDED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:14:17-109
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:48:25-92
+receiver#com.facebook.CampaignTrackingReceiver
+ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:51:9-58:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:52:13-65
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132

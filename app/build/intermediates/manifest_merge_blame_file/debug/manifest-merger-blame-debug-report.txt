@@ -1,0 +1,416 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fu.nnyfro.ghunt"
+4    android:versionCode="2"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:5:1-63
+11-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:5:18-60
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:6:1-76
+12-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:6:18-73
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:7:1-77
+13-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:7:18-74
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:8:1-75
+14-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:8:18-72
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:9:1-72
+15-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:9:18-69
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:10:1-71
+16-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:10:18-68
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Optional permission for Analytics to run. -->
+17-->[com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+17-->[com.android.installreferrer:installreferrer:1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/9a062e6deb58cedb64dac7713cd3880b/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:27:5-68
+18-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:27:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:12:1-79:15
+22        android:name="fu.nnyfro.ghunt.ThisApplication"
+22-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:13:5-36
+23        android:allowBackup="true"
+23-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:14:5-31
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/331630a23dfa1f0594bcf54d5352aa36/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:hardwareAccelerated="false"
+26-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:15:5-40
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:16:5-39
+28        android:label="@string/app_name"
+28-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:17:5-37
+29        android:largeHeap="true"
+29-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:18:5-29
+30        android:supportsRtl="true"
+30-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:19:5-31
+31        android:theme="@style/Theme.AppCompat.NoActionBar"
+31-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:20:5-55
+32        android:usesCleartextTraffic="true" >
+32-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:21:5-40
+33        <activity
+33-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:23:5-26:16
+34            android:name="fu.nnyfro.ghunt.Activities.MenuActivity"
+34-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:24:9-48
+35            android:screenOrientation="landscape" >
+35-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:25:9-46
+36        </activity>
+37        <activity
+37-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:28:5-31:16
+38            android:name="fu.nnyfro.ghunt.MActivity"
+38-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:29:9-34
+39            android:screenOrientation="landscape" >
+39-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:30:9-46
+40        </activity>
+41        <activity
+41-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:37:5-54:16
+42            android:name="fu.nnyfro.ghunt.MainActivity"
+42-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:38:9-37
+43            android:noHistory="true"
+43-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:40:9-33
+44            android:screenOrientation="portrait" >
+44-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:39:9-45
+45            <intent-filter>
+45-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:41:9-45:25
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:42:13-65
+46-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:42:21-62
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:44:13-73
+48-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:44:23-70
+49            </intent-filter>
+50            <intent-filter>
+50-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:46:9-53:25
+51                <action android:name="android.intent.action.VIEW" />
+51-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:47:13-65
+51-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:47:21-62
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:49:13-72
+53-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:49:23-69
+54                <category android:name="android.intent.category.BROWSABLE" />
+54-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:50:13-74
+54-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:50:23-71
+55
+56                <data android:scheme="app" />
+56-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:52:13-42
+56-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:52:19-39
+57            </intent-filter>
+58        </activity>
+59
+60        <service
+60-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:57:5-63:15
+61            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+61-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:58:9-78
+62            android:exported="false" >
+62-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:59:9-33
+63            <intent-filter>
+63-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:60:9-62:25
+64                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+64-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:61:13-74
+64-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:61:21-71
+65            </intent-filter>
+66            <intent-filter android:priority="-500" >
+66-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:60:9-62:25
+67                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+67-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:61:13-74
+67-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:61:21-71
+68            </intent-filter>
+69        </service>
+70
+71        <meta-data
+71-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:65:5-67:51
+72            android:name="com.facebook.sdk.ApplicationId"
+72-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:66:9-54
+73            android:value="@string/facebook_app_id" />
+73-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:67:9-48
+74
+75        <uses-library
+75-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:69:5-71:36
+76            android:name="org.apache.http.legacy"
+76-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:70:9-46
+77            android:required="false" />
+77-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:71:9-33
+78
+79        <meta-data
+79-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:73:5-75:50
+80            android:name="com.google.firebase.messaging.default_notification_icon"
+80-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:74:9-79
+81            android:resource="@mipmap/ic_launcher" />
+81-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:75:9-47
+82        <meta-data
+82-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:76:5-78:65
+83            android:name="com.google.android.gms.version"
+83-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:77:9-54
+84            android:value="@integer/google_play_services_version" />
+84-->/Users/lynxapps/Downloads/Funnyfroghunt/app/src/main/AndroidManifest.xml:78:9-62
+85
+86        <activity
+86-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:29:9-32:66
+87            android:name="com.facebook.FacebookActivity"
+87-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:30:13-57
+88            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+88-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:31:13-96
+89            android:theme="@style/com_facebook_activity_theme" />
+89-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:32:13-63
+90        <activity android:name="com.facebook.CustomTabMainActivity" />
+90-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:33:9-71
+90-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:33:19-68
+91        <activity android:name="com.facebook.CustomTabActivity" />
+91-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:34:9-67
+91-->[com.facebook.android:facebook-common:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/308cc21bf3e09904b1f691abb20f322a/jetified-facebook-common-5.8.0/AndroidManifest.xml:34:19-64
+92
+93        <service
+93-->[com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:35:9-41:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:36:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:37:13-37
+97            <meta-data
+97-->[com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:38:13-40:85
+98                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+98-->[com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:39:17-119
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-messaging:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/3f990d7fe736d8d4b705062df3564a40/jetified-firebase-messaging-20.1.5/AndroidManifest.xml:40:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:32:13-34:85
+101                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+101-->[com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:33:17-117
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-config:19.1.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/eeebf17965dcab897abbf8b8349f832b/firebase-config-19.1.0/AndroidManifest.xml:34:17-82
+103            <meta-data
+103-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+104                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+104-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.android.gms:play-services-measurement-api:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/4b59d42a294b8df7832d39aa6c3c85e9/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+107                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+107-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+110                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+110-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/e0da70c9258f6893a2373fb18ae7e095/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+113                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+113-->[com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-installations:16.2.1] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/c19539b70283b21499a0a95e30087126/firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:13:13-15:85
+116                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+116-->[com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:14:17-109
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-abt:19.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/47690ecf44ad5b3a6467d36b8bd23e0a/firebase-abt-19.0.0/AndroidManifest.xml:15:17-82
+118        </service>
+119
+120        <receiver
+120-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:30:9-34:20
+121            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+121-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:31:13-78
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:32:13-35
+123            android:exported="false" >
+123-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:33:13-37
+124        </receiver>
+125
+126        <service
+126-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:36:9-39:40
+127            android:name="com.google.android.gms.analytics.AnalyticsService"
+127-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:37:13-77
+128            android:enabled="true"
+128-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:38:13-35
+129            android:exported="false" />
+129-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:39:13-37
+130        <service
+130-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:40:9-44:72
+131            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+131-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:41:13-80
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:42:13-35
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:43:13-37
+134            android:permission="android.permission.BIND_JOB_SERVICE" />
+134-->[com.google.android.gms:play-services-analytics:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d2f8a72f89b672e577773b9ce4143426/play-services-analytics-17.0.0/AndroidManifest.xml:44:13-69
+135
+136        <receiver
+136-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+137            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+137-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+138            android:exported="true"
+138-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+139            android:permission="com.google.android.c2dm.permission.SEND" >
+139-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+140            <intent-filter>
+140-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+141                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+141-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+141-->[com.google.firebase:firebase-iid:20.1.5] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/d8c791917fd8d28cde2a17c097f0a8ce/firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+142            </intent-filter>
+143        </receiver>
+144        <receiver
+144-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+145            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+145-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+146            android:enabled="true"
+146-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+147            android:exported="false" >
+147-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+148        </receiver>
+149        <receiver
+149-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+150            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+150-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+151            android:enabled="true"
+151-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+152            android:exported="true"
+152-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+153            android:permission="android.permission.INSTALL_PACKAGES" >
+153-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+154            <intent-filter>
+154-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+155                <action android:name="com.android.vending.INSTALL_REFERRER" />
+155-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+155-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+156            </intent-filter>
+157        </receiver>
+158
+159        <service
+159-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+160            android:name="com.google.android.gms.measurement.AppMeasurementService"
+160-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+162            android:exported="false" />
+162-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+163        <service
+163-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+164            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+164-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+165            android:enabled="true"
+165-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+166            android:exported="false"
+166-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+167            android:permission="android.permission.BIND_JOB_SERVICE" />
+167-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+168
+169        <provider
+169-->[com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+170            android:name="com.google.firebase.provider.FirebaseInitProvider"
+170-->[com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+171            android:authorities="fu.nnyfro.ghunt.firebaseinitprovider"
+171-->[com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:19.3.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/57d2b10dcddabd82f2cd95f19d59e54a/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+174
+175        <activity
+175-->[com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:17.0.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/b989d78505a527364775fcd163b70614/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+179        <!--
+180         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+181         with the application context. This config is merged in with the host app's manifest,
+182         but there can only be one provider with the same authority activated at any given
+183         point; so if the end user has two or more different apps that use Facebook SDK, only the
+184         first one will be able to use the provider. To work around this problem, we use the
+185         following placeholder in the authority to identify each host application as if it was
+186         a completely different provider.
+187        -->
+188        <provider
+188-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:39:9-42:40
+189            android:name="com.facebook.internal.FacebookInitProvider"
+189-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:40:13-70
+190            android:authorities="fu.nnyfro.ghunt.FacebookInitProvider"
+190-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:41:13-72
+191            android:exported="false" />
+191-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:42:13-37
+192
+193        <receiver
+193-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:44:9-50:20
+194            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+194-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:45:13-86
+195            android:exported="false" >
+195-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:46:13-37
+196            <intent-filter>
+196-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:47:13-49:29
+197                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+197-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:48:17-95
+197-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:48:25-92
+198            </intent-filter>
+199        </receiver>
+200        <receiver
+200-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:51:9-58:20
+201            android:name="com.facebook.CampaignTrackingReceiver"
+201-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:52:13-65
+202            android:exported="true"
+202-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:53:13-36
+203            android:permission="android.permission.INSTALL_PACKAGES" >
+203-->[com.facebook.android:facebook-core:5.8.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/bccabdd6bfc9aa28a3ce019cb0de6d9a/jetified-facebook-core-5.8.0/AndroidManifest.xml:54:13-69
+204            <intent-filter>
+204-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+205                <action android:name="com.android.vending.INSTALL_REFERRER" />
+205-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+205-->[com.google.android.gms:play-services-measurement:17.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/da285bf3d5ac46fbcb876ddc09104239/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+206            </intent-filter>
+207        </receiver>
+208
+209        <service
+209-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+210            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+210-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+211            android:exported="false" >
+211-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+212            <meta-data
+212-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+213                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+213-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+214                android:value="cct" />
+214-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/77181b27b36cb37ae3fc9cbfe9ccb0de/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+215        </service>
+216        <service
+216-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+217            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+217-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+218            android:exported="false"
+218-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+219            android:permission="android.permission.BIND_JOB_SERVICE" >
+219-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+220        </service>
+221
+222        <receiver
+222-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+223            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+223-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+224            android:exported="false" />
+224-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/lynxapps/.gradle/caches/transforms-2/files-2.1/de57d140c5b40ac4922d63a6d65b36af/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+225    </application>
+226
+227</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">631376971169-tqe3df77e9442ba7smv1naolst2gcei9.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://funny-frog-hunt.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">631376971169</string>
+    <string name="google_api_key" translatable="false">AIzaSyDO957XRO0NtZ7E_lUXLRyagD5GqWF7UDc</string>
+    <string name="google_app_id" translatable="false">1:631376971169:android:0e4d85fbc5bbeb832bf7e0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDO957XRO0NtZ7E_lUXLRyagD5GqWF7UDc</string>
+    <string name="google_storage_bucket" translatable="false">funny-frog-hunt.appspot.com</string>
+    <string name="project_id" translatable="false">funny-frog-hunt</string>
+</resources>

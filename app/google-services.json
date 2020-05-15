@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "631376971169",
+    "firebase_url": "https://funny-frog-hunt.firebaseio.com",
+    "project_id": "funny-frog-hunt",
+    "storage_bucket": "funny-frog-hunt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631376971169:android:0e4d85fbc5bbeb832bf7e0",
+        "android_client_info": {
+          "package_name": "fu.nnyfro.ghunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631376971169-tqe3df77e9442ba7smv1naolst2gcei9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO957XRO0NtZ7E_lUXLRyagD5GqWF7UDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631376971169-tqe3df77e9442ba7smv1naolst2gcei9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

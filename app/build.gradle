@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "fu.nnyfro.ghunt"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 2
+        versionName "2.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        resConfigs "en", "US"
+    }
+
+    allprojects {
+        repositories {
+            maven { url "https://www.jitpack.io" }
+        }
+    }
+
+
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+//    implementation 'androidx.cardview:cardview:1.0.0'
+//    implementation 'androidx.vectordrawable:vectordrawable-animated:1.1.0'
+//    implementation 'androidx.browser:browser:1.0.0-beta01'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.3.0-alpha05'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha05'
+    implementation 'com.facebook.android:facebook-android-sdk:5.8.0'
+
+    android {
+        useLibrary 'org.apache.http.legacy'
+    }
+    implementation 'com.google.firebase:firebase-core:17.2.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.5'
+
+    implementation 'com.appsflyer:af-android-sdk:4.8.3@aar'
+    implementation 'com.android.installreferrer:installreferrer:1.0'
+    implementation 'com.google.firebase:firebase-config:19.1.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+
+}
